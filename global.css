@@ -3,6 +3,7 @@
 /* ==================================== */
 body {
     background-image: url('Imágenes/ciudad/ciudad6.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../Imágenes/ciudad/ciudad8.png'); /* Ajusta el 0.3 para más o menos claridad */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -14,7 +15,9 @@ body {
 
 /* Contenedor principal que abarca todo el contenido */
 .main-container {
-    background-color: rgba(0, 0, 0, 0.3); /* Cambiado de 0.6 a 0.3 */
+   /*  background-color: rgba(0, 0, 0, 0.3); /* Cambiado de 0.6 a 0.3 */
+        /* Aquí eliminamos el background-color, o lo ponemos totalmente transparente si quieres */
+    background-color: transparent; /* O puedes ajustarlo si todavía quieres un leve oscurecimiento adicional */
     min-height: 100vh;
 }
 

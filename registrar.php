@@ -1,10 +1,14 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+// El resto de tu código para registrar.php va aquí
 
 // 1. Datos de conexión a la base de datos
 // **¡REEMPLAZA ESTOS DATOS CON LOS TUYOS!**
 define('DB_SERVER', 'sql302.infinityfree.com');
 define('DB_USERNAME', 'if0_39768725');
-define('DB_PASSWORD', 'TU_CONTRASEÑA_AQUÍ'); // REEMPLAZA CON LA CONTRASEÑA QUE ELEGISTE
+define('DB_PASSWORD', 'edFQkjDkBH'); // REEMPLAZA CON LA CONTRASEÑA QUE ELEGISTE
 define('DB_NAME', 'if0_39768725_usuarios');
 
 // 2. Conexión a la base de datos

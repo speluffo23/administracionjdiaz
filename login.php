@@ -5,7 +5,7 @@ session_start();
 // **RECUERDA: La contraseña la debes poner tú**
 define('DB_SERVER', 'sql302.infinityfree.com');
 define('DB_USERNAME', 'if0_39768725');
-define('DB_PASSWORD', 'TU_CONTRASEÑA_AQUÍ');
+define('DB_PASSWORD', 'edFQkjDkBH');
 define('DB_NAME', 'if0_39768725_usuarios');
 
 // 2. Conexión a la base de datos

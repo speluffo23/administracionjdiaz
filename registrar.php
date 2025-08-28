@@ -2,10 +2,10 @@
 
 // 1. Datos de conexión a la base de datos
 // **¡REEMPLAZA ESTOS DATOS CON LOS TUYOS!**
-define('DB_SERVER', 'tu_servidor_mysql');
-define('DB_USERNAME', 'tu_nombre_de_usuario_mysql');
-define('DB_PASSWORD', 'tu_contraseña_mysql');
-define('DB_NAME', 'tu_nombre_de_la_base_de_datos');
+define('DB_SERVER', 'sql302.infinityfree.com');
+define('DB_USERNAME', 'if0_39768725');
+define('DB_PASSWORD', 'TU_CONTRASEÑA_AQUÍ'); // REEMPLAZA CON LA CONTRASEÑA QUE ELEGISTE
+define('DB_NAME', 'if0_39768725_usuarios');
 
 // 2. Conexión a la base de datos
 $conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);

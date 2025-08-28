@@ -2,6 +2,7 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+
 // El resto de tu código para registrar.php va aquí
 
 // 1. Datos de conexión a la base de datos

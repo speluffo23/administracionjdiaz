@@ -3,7 +3,7 @@
 /* ==================================== */
 body {
     background-image: url('Imágenes/ciudad/__ciudad6.png');
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../Imágenes/ciudad/ciudad6.png'); /* Ajusta el 0.3 para más o menos claridad */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../Imágenes/ciudad/__ciudad6.png'); /* Ajusta el 0.3 para más o menos claridad */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

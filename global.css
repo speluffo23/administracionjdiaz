@@ -2,8 +2,8 @@
 /* ESTILOS GLOBALES Y COMPARTIDOS       */
 /* ==================================== */
 body {
-    background-image: url('Imágenes/ciudad/ciudad6.png');
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../Imágenes/ciudad/ciudad8.png'); /* Ajusta el 0.3 para más o menos claridad */
+    background-image: url('Imágenes/ciudad/__ciudad6.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../Imágenes/ciudad/ciudad6.png'); /* Ajusta el 0.3 para más o menos claridad */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -43,7 +43,7 @@ header .container {
 }
 
 .logo {
-    width: 200px;
+    width: 250px;
 }
 
 .logo img {
